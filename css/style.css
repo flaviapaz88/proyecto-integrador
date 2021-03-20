@@ -20,7 +20,7 @@ footer a img {
 header {
   width: 100%;
   height: 750px;
-  background-image: url(imagenes/fondo.svg);
+  background-image: url(../imagenes/fondo.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -39,7 +39,7 @@ header .contenedor .nav-link {
   font-size: 11px;
   letter-spacing: 2px;
 }
-header .contenedor .nav-link .nav-link:hover {
+header .contenedor .nav-link:hover {
   color: #CC0000;
 }
 header .contenedor .titulo-container {
@@ -68,7 +68,7 @@ header .contenedor .titulo-container .botonera {
   border: 1px solid #ccc;
   background-color: #FFFEFA;
 }
-header .contenedor .titulo-container .botonera .botonera:hover {
+header .contenedor .titulo-container .botonera:hover {
   border: 1px solid #CC0000;
 }
 header .contenedor .titulo-container .botonera a {
@@ -78,274 +78,90 @@ header .contenedor .titulo-container .botonera a {
   font-size: 11px;
   font-weight: 600;
 }
-header .contenedor .titulo-container .botonera a .botonera a:hover {
+header .contenedor .titulo-container .botonera a:hover {
   color: #CC0000;
 }
 
-/*# sourceMappingURL=style.css.map */
-
-
-
-
 /************** QUIENES SOMOS ******************/
-
-
 #quienes-somos {
   background-color: #65CACA;
 }
-
-.somos-shimai {
+#quienes-somos .somos-shimai {
   display: flex;
   justify-content: space-between;
 }
-
-.video {
+#quienes-somos .somos-shimai .video {
   width: 50%;
   padding: 100px;
 }
-
-.contenedor-video{
-  background-color:#FFFEFA;
-} 
-
-.video-quienes-somos{
+#quienes-somos .somos-shimai .video .contenedor-video {
+  background-color: #FFFEFA;
+}
+#quienes-somos .somos-shimai .video .video-quienes-somos {
   position: relative;
   top: 30px;
   left: 30px;
-  width: 100%;  
+  width: 100%;
 }
-
-.textos-quienes-somos{
-  width: 50%;    
+#quienes-somos .somos-shimai .textos-quienes-somos {
+  width: 50%;
 }
-.titulo-quienes-somos img{
-  width: 100%;    
+#quienes-somos .somos-shimai .textos-quienes-somos .titulo-quienes-somos img {
+  width: 100%;
 }
-
-.texto-quienes-somos{
+#quienes-somos .somos-shimai .textos-quienes-somos .texto-quienes-somos {
   width: 85%;
   margin: 30px 0px;
-  color: #FFFEFA; 
-  font-weight: 300;  
+  color: #FFFEFA;
+  font-weight: 300;
 }
 
 /************** SERVICIOS ******************/
-
 #servicios {
   width: 100%;
-  height:800px;
+  height: 800px;
   background-image: url(imagenes/fondo.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   text-align: center;
-
 }
-
-.titulo-secciones {
-  font-family: 'Antonio';
+#servicios .titulo-secciones {
+  font-family: "Antonio";
   font-size: 50px;
   margin-top: 70px;
   color: #65CACA;
-  letter-spacing: 5px ;
+  letter-spacing: 5px;
 }
-
-.servicios-shimai {
+#servicios .servicios-shimai {
   padding: 60px;
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
-
-.servicio {
+#servicios .servicios-shimai .servicio {
   width: 20%;
   padding: 15px;
 }
-
-.servicio img{
+#servicios .servicios-shimai .servicio img {
   margin-bottom: 20px;
 }
-
-.servicio h3{
+#servicios .servicios-shimai .servicio h3 {
   margin: 30px 0px;
   color: #3A3A3A;
   font-weight: 600;
   font-size: 18px;
-  letter-spacing: 2px ;
+  letter-spacing: 2px;
 }
 
-
-
-/*<!-- sección de galería -->*/
-
-/* #galeria{
-  display: flex;
-  justify-content: center;
-}  */
-
-.photo-grid {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-.photo-grid-item {
-  width: 400px;
+body {
+  font-family: "Montserrat";
+  color: #3A3A3A;
 }
 
-.imagen-photo-grid {
-  width: 100%;
-}
-
-.photo-grid-item video{
-  width: 400px;
-  height: 400px;
-}
-
-/* ----------------- servicios ------------------------- */
-/* .servicios-container{
-  display: grid; 
-  grid-template-columns: auto auto auto auto; 
-  grid-template-rows: 300px;  
-  padding: 10px;
-}
-
-
-.grid-item {
-/*     background-color: aqua;
-  border: 1px solid black; 
-  text-align: center;
-  padding: 20px;
-}
-
-
-
-.grid-item i {
-  margin: 20px;
-  color: red;
-  width: 100px;
-  font-size: 40px;
-} */
-
-
-.servicios-container{
-  display:flex;
-  flex: wrap;
-
-}
-
-
-.grid-item {
- background-color: aqua;
-  border: 1px solid black; 
-  text-align: center;
-  padding: 20px;
-}
-
-
-
-.grid-item i {
-  margin: 20px;
-  color: red;
-  width: 100px;
-  font-size: 40px;
-}
-
-
-
-
-/*---------------- medias querry ---------------------*/
-
-@media only screen and (max-width: 400px) {
-  .photo-grid-item video{
-      display: none;
-  }
-
-  .imagen-team img {
-      width: 33.3%;
-  }
-
-  #galeria{
-      background-color: #FFFEFA;
-  } 
-
-  .servicios-container{ 
-      grid-template-columns: auto;
-      grid-template-rows: 300px 300px 300px 300px;   
-  }
-   
-}
-
-/*Tablet*/
-@media only screen and (min-width: 401px) and (max-width: 960px) {
- 
-  #galeria{
-      background-color: #00ffdd;
-  } 
-  .imagen-team img {
-      width: 50%;
-  }
-
-  .servicios-container{ 
-      grid-template-columns: auto auto;  
-      grid-template-rows: 300px 300px; 
-  }
-  
-}
-
-/*Desktop*/
-@media only screen and (min-width: 961px) {
-  
-  
-
-  .photo-grid-item img{
-      width: 100%;}
-
-}
-
-
-/* ---------transiciones----- */
-
-
-
-.titulo-container {
-  transition: all 1.5s ease-in;
-}
-
-#galeria {
-  transition: all 1.5s ease-out;
-}
-
-.photo-grid-item:hover {
-  transform: scale(1.5);
-  transition: all 1s;
-} 
-
-@keyframes tripodi {
-  
-      
-  0% {
-      background-color: rgb(32, 230, 236);
-  }
-
-  25%{ background-color: rgb(245, 255, 198);
-  border-radius: 50px;}
-
-  50%{
-      background-color: salmon;
-  }
-
-  100% {
-      background-color: rgb(27, 231, 231);
-  }
-    
-
-
-}
-
-#galeria{
-    animation: tripodi 4s; 
-}
-
-
-
+/*# sourceMappingURL=style.css.map */

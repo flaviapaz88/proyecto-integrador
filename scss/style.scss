@@ -1,1 +1,11 @@
 @import 'base/import';
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: $font-principal;
+    color: $color-font;
+}
