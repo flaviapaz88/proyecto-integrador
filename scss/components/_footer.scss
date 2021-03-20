@@ -1,0 +1,12 @@
+footer {
+    @extend %flex;
+    
+    width: 100%;
+    a {
+        color: $color-primario;
+        img {
+            width: 120%;
+        }
+    }
+    
+}

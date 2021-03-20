@@ -62,11 +62,11 @@ h2{
 /*<!-- sección de carrusel o video -->*/
 
 .encabezado{
-    background-image: url(imagenes/fondo.svg);
+    background-image: url(imagenes/fondo.png);
     height: auto;
     width: 100%;
-   /*  display: flex;
-    justify-content: center; */
+    display: flex;
+    justify-content: center;
 }
 
 .titulo-container {
@@ -124,7 +124,7 @@ h2{
 }
 
 /* ----------------- servicios ------------------------- */
-/* .servicios-container{
+.servicios-container{
     display: grid; 
     grid-template-columns: auto auto auto auto; 
     grid-template-rows: 300px;  
@@ -134,7 +134,7 @@ h2{
 
 .grid-item {
 /*     background-color: aqua;
-    border: 1px solid black; 
+    border: 1px solid black; */
     text-align: center;
     padding: 20px;
 }
@@ -145,32 +145,10 @@ h2{
     margin: 20px;
     color: red;
     width: 100px;
-    font-size: 40px;
-} */
-
-
-.servicios-container{
-    display:flex;
-    flex: wrap;
-
+    height: auto;
 }
 
 
-.grid-item {
-   background-color: aqua;
-    border: 1px solid black; 
-    text-align: center;
-    padding: 20px;
-}
-
-
-
-.grid-item i {
-    margin: 20px;
-    color: red;
-    width: 100px;
-    font-size: 40px;
-}
 
 
 
