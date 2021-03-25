@@ -8,7 +8,7 @@ footer {
 
 @font-face {
   font-family: "Antonio";
-  src: url(audio/Antonio-Bold.ttf) format("woff");
+  src: url(../audio/Antonio-Bold.ttf) format("woff");
 }
 /*---------------- medias querry ---------------------*/
 /*Tablet**/
@@ -158,7 +158,7 @@ header .contenedor .titulo-container .botonera a:hover {
 #servicios {
   width: 100%;
   height: 800px;
-  background-image: url(imagenes/fondo.svg);
+  background-image: url(../imagenes/fondo.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
