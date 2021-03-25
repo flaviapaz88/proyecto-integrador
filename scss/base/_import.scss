@@ -1,12 +1,15 @@
 /* Base */
 @import '../base/variables';
 @import '../base/extends';
+@import '../base/fonts';
+@import '../base/media';
 
 
 
 /* Components */
 @import '../components/footer';
 @import '../components/header';
-@import '../components/quienes.scss';
-@import '../components/servicios.scss';
+@import '../components/quienes';
+@import '../components/servicios';
+@import '../components/galeria';
 
