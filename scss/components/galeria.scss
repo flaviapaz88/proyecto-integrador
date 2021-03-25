@@ -1,0 +1,36 @@
+/************** GALERÍA ******************/
+#galeria {
+    background-color:#F7DFA6;
+
+
+    .titulo-galeria {
+
+        display: flex;
+        justify-content: flex-end;
+        img{
+            width: 50%;
+        }
+    }
+
+    
+
+    .contenedor-galeria{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    margin: 50px 0px 90px 0px;
+    
+
+    .imagen-contenedor{
+        width: 390px;
+        margin: 10px ;
+    
+
+    .imagen-item{
+        width: 100%;
+        
+    }
+}
+}
+}
+
