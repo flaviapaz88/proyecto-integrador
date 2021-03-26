@@ -23,7 +23,7 @@ header{
     letter-spacing: 2px ;
     
         &:hover {
-        color: $color-primario;
+        color: $color-primario !important;
         }
     }
 

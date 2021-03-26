@@ -1,12 +1,8 @@
-footer {
-    @extend %flex;
+#contacto{
+   
+    background-color: $color-primario;
     
-    width: 100%;
-    a {
-        color: $color-primario;
-        img {
-            width: 120%;
-        }
+    .form-floating{
+        margin-top: 40px;
     }
-    
 }

@@ -1,25 +1,15 @@
 @charset "UTF-8";
 /* Base */
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @font-face {
   font-family: "Antonio";
   src: url(../audio/Antonio-Bold.ttf) format("woff");
 }
-
 /* Components */
-footer {
-  width: 100%;
+#contacto {
+  background-color: #CC0000;
 }
-footer a {
-  color: #CC0000;
-}
-footer a img {
-  width: 120%;
+#contacto .form-floating {
+  margin-top: 40px;
 }
 
 /************** HEADER ******************/
@@ -46,7 +36,7 @@ header .contenedor .nav-link {
   letter-spacing: 2px;
 }
 header .contenedor .nav-link:hover {
-  color: #CC0000;
+  color: #CC0000 !important;
 }
 header .contenedor .titulo-container {
   padding: 60px;
@@ -185,18 +175,6 @@ header .contenedor .titulo-container .botonera a:hover {
   width: 100%;
 }
 
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
-body {
-  font-family: "Montserrat";
-  color: #3A3A3A;
-}
-
-/*# sourceMappingURL=style.css.map */
-
 @media only screen and (max-width: 860px) {
   #quienes-somos .somos-shimai {
     flex-direction: column;
@@ -224,3 +202,14 @@ body {
     padding: 15px;
   }
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Montserrat";
+  color: #3A3A3A;
+}
+
+/*# sourceMappingURL=style.css.map */
