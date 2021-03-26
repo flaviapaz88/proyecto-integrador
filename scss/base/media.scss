@@ -1,41 +1,36 @@
-/*---------------- medias querry ---------------------*/
-@media only screen and (max-width: 400px) {
-
-}
-
-/*Tablet**/
 @media only screen and (max-width: 860px) {
    
     #quienes-somos .somos-shimai{
         flex-direction: column;
         align-items: center;
-    }
     
-    #quienes-somos .somos-shimai .video  {
+    
+    .video  {
         width: 100%;  
     }
     
-    #quienes-somos .somos-shimai .textos-quienes-somos {
+    
+    .textos-quienes-somos {
         width: 80%;
-        margin: auto;    
+        margin: auto;  
+        
+        img{
+            width: 80%;
+            margin: auto;    
+        }
     }
+}
 
-    #quienes-somos .somos-shimai .textos-quienes-somos .titulo-quienes-somos img{
-        width: 80%;
-        margin: auto;    
-    }
 
     #servicios .servicios-shimai {
         padding: 30px;
         flex-direction: column;
-        
         text-align: center;
-    }
     
-    #servicios .servicios-shimai .servicio {
+    
+    .servicio {
         width: 100%;
         padding: 15px;
     }
-    
-
+}
 }
