@@ -1,6 +1,7 @@
 /************** GALERÍA ******************/
 #galeria {
     background-color:#F7DFA6;
+    padding-bottom: 80px;
 
 
     .titulo-galeria {
@@ -18,7 +19,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-    margin: 50px 0px 90px 0px;
+    margin: 50px 0px;
     
 
     .imagen-contenedor{

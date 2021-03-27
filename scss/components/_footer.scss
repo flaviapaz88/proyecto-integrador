@@ -1,7 +1,16 @@
 #contacto{
    
     background-color: $color-primario;
-    
+    padding: 60px 0px;
+
+    .titulo-secciones { 
+    font-family: 'Antonio';
+        font-size: 50px;
+        color: $bg-color;
+        letter-spacing: 5px ;
+
+    }
+
     .form-floating{
         margin-top: 40px;
     }

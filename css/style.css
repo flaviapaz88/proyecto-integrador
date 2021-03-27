@@ -7,6 +7,13 @@
 /* Components */
 #contacto {
   background-color: #CC0000;
+  padding: 60px 0px;
+}
+#contacto .titulo-secciones {
+  font-family: "Antonio";
+  font-size: 50px;
+  color: #FFFEFA;
+  letter-spacing: 5px;
 }
 #contacto .form-floating {
   margin-top: 40px;
@@ -121,11 +128,11 @@ header .contenedor .titulo-container .botonera a:hover {
   background-attachment: fixed;
   background-position: center;
   text-align: center;
+  padding: 70px 0px;
 }
 #servicios .titulo-secciones {
   font-family: "Antonio";
   font-size: 50px;
-  margin-top: 70px;
   color: #65CACA;
   letter-spacing: 5px;
 }
@@ -153,6 +160,7 @@ header .contenedor .titulo-container .botonera a:hover {
 /************** GALERÍA ******************/
 #galeria {
   background-color: #F7DFA6;
+  padding-bottom: 80px;
 }
 #galeria .titulo-galeria {
   display: flex;
@@ -165,7 +173,7 @@ header .contenedor .titulo-container .botonera a:hover {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 50px 0px 90px 0px;
+  margin: 50px 0px;
 }
 #galeria .contenedor-galeria .imagen-contenedor {
   width: 390px;
