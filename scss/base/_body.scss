@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: $font-principal;
+    color: $color-font;
+}
+
+.contenedor {
+    max-width: 1420px;
+    margin: auto;
+    overflow: hidden;
+  }

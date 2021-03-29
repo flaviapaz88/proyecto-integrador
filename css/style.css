@@ -1,13 +1,28 @@
 @charset "UTF-8";
 /* Base */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Montserrat";
+  color: #3A3A3A;
+}
+
+.contenedor {
+  max-width: 1420px;
+  margin: auto;
+  overflow: hidden;
+}
+
 @font-face {
   font-family: "Antonio";
   src: url(../audio/Antonio-Bold.ttf) format("woff");
 }
 /* Components */
 #contacto {
-  background-color: #CC0000;
-  padding: 60px 0px;
+  background-color: orangered;
 }
 #contacto .titulo-secciones {
   font-family: "Antonio";
@@ -183,7 +198,52 @@ header .contenedor .titulo-container .botonera a:hover {
   width: 100%;
 }
 
-@media only screen and (max-width: 860px) {
+/************** TEAM ******************/
+#team {
+  width: 100%;
+  height: auto;
+  background-image: url(../imagenes/fondo2.svg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+  padding: 70px 0px;
+}
+#team .titulo-secciones {
+  font-family: "Antonio";
+  font-size: 50px;
+  color: #CC0000;
+  letter-spacing: 5px;
+}
+#team .contenedorteam {
+  padding: 60px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+#team .contenedorteam .fototeam {
+  width: 20%;
+  padding: 20px;
+}
+#team .contenedorteam .fototeam img {
+  margin-bottom: 20px;
+}
+#team .contenedorteam .fototeam h3 {
+  margin: 30px 0px;
+  color: #3A3A3A;
+  font-weight: 600;
+  font-family: "Antonio";
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+#team .contenedorteam .fototeam p {
+  color: #3A3A3A;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+@media only screen and (max-width: 960px) {
   #quienes-somos .somos-shimai {
     flex-direction: column;
     align-items: center;
@@ -202,22 +262,35 @@ header .contenedor .titulo-container .botonera a:hover {
 
   #servicios .servicios-shimai {
     padding: 30px;
+    flex-wrap: wrap;
+  }
+  #servicios .servicios-shimai .servicio {
+    width: 40%;
+    padding: 15px;
+  }
+
+  #team .contenedorteam {
+    flex-wrap: wrap;
+  }
+  #team .contenedorteam .fototeam {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  #servicios .servicios-shimai {
     flex-direction: column;
-    text-align: center;
   }
   #servicios .servicios-shimai .servicio {
     width: 100%;
     padding: 15px;
   }
-}
-* {
-  margin: 0px;
-  padding: 0px;
-}
 
-body {
-  font-family: "Montserrat";
-  color: #3A3A3A;
+  #team .contenedorteam {
+    flex-direction: column;
+  }
+  #team .contenedorteam .fototeam {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

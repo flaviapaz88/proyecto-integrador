@@ -1,5 +1,6 @@
 /* Base */
 @import '../base/variables';
+@import '../base/body';
 @import '../base/extends';
 @import '../base/fonts';
 
@@ -12,4 +13,6 @@
 @import '../components/quienes';
 @import '../components/servicios';
 @import '../components/galeria';
-@import '../base/media';
+@import '../components/team';
+@import '../components/media';
+
