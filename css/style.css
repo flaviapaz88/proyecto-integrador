@@ -193,9 +193,36 @@ header .contenedor .titulo-container .botonera a:hover {
 #galeria .contenedor-galeria .imagen-contenedor {
   width: 390px;
   margin: 10px;
+  position: relative;
 }
 #galeria .contenedor-galeria .imagen-contenedor .imagen-item {
   width: 100%;
+  opacity: 1;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+#galeria .contenedor-galeria .imagen-contenedor .imagen-item:hover {
+  opacity: 0.3;
+}
+#galeria .contenedor-galeria .imagen-contenedor .middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+#galeria .contenedor-galeria .imagen-contenedor .middle:hover {
+  opacity: 1;
+}
+#galeria .contenedor-galeria .imagen-contenedor .middle .text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
 }
 
 /************** TEAM ******************/
