@@ -3,9 +3,7 @@
     background-color:#F7DFA6;
     padding-bottom: 80px;
 
-
     .titulo-galeria {
-
         display: flex;
         justify-content: flex-end;
         img{
@@ -13,20 +11,16 @@
         }
     }
 
-    
-
     .contenedor-galeria{
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-    margin: 50px 0px;
-    
-
+        margin: 50px 0px;
+  
     .imagen-contenedor{
         width: 390px;
         margin: 10px ;
         position: relative;
-        
 
             .imagen-item{
                 width: 100%;
@@ -34,33 +28,39 @@
                 height: auto;
                 transition: .5s ease;
                 backface-visibility: hidden;
-            
-            &:hover {
-                opacity: 0.3;
-            }}
-            .middle {
-                transition: .5s ease;
-                opacity: 0;
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                text-align: center;
+                }
+            .destacado {
                 &:hover {
                     opacity: 1;
                 }
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 100%;
+                width: 100%;
+                opacity: 0;
+                transition: .5s ease;
+                background-color: $color-primario;
+                }
             
                 .text {
-                    background-color: #4CAF50;
-                    color: white;
-                    font-size: 16px;
-                    padding: 16px 32px;
+                    color:$bg-color;
+                    font-family: $font-principal;
+                    font-size: 20px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    -webkit-transform: translate(-50%, -50%);
+                    -ms-transform: translate(-50%, -50%);
+                    transform: translate(-50%, -50%);
+                    text-align: center;
                     }
-                }
+        }
     }
 }
 
 
-}
+
 

@@ -64,7 +64,6 @@ header .contenedor .titulo-container {
   padding: 60px;
   text-align: center;
   font-weight: 300;
-  /* border: 1px solid black;   */
 }
 header .contenedor .titulo-container .titulo {
   margin-bottom: 30px;
@@ -202,27 +201,32 @@ header .contenedor .titulo-container .botonera a:hover {
   transition: 0.5s ease;
   backface-visibility: hidden;
 }
-#galeria .contenedor-galeria .imagen-contenedor .imagen-item:hover {
-  opacity: 0.3;
-}
-#galeria .contenedor-galeria .imagen-contenedor .middle {
-  transition: 0.5s ease;
+#galeria .contenedor-galeria .imagen-contenedor .destacado {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
   opacity: 0;
+  transition: 0.5s ease;
+  background-color: #CC0000;
+}
+#galeria .contenedor-galeria .imagen-contenedor .destacado:hover {
+  opacity: 1;
+}
+#galeria .contenedor-galeria .imagen-contenedor .text {
+  color: #FFFEFA;
+  font-family: "Montserrat";
+  font-size: 20px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
-}
-#galeria .contenedor-galeria .imagen-contenedor .middle:hover {
-  opacity: 1;
-}
-#galeria .contenedor-galeria .imagen-contenedor .middle .text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
 }
 
 /************** TEAM ******************/
