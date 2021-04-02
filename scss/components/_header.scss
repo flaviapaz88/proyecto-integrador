@@ -1,13 +1,12 @@
 /************** HEADER ******************/
 header{ 
     width: 100%;
-    height:750px;
+    height:auto;
     background-image: url(../imagenes/fondo.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-   
- 
+
 .contenedor {
     max-width: 1420px;
     margin: auto;
@@ -15,6 +14,7 @@ header{
 
     .logo { 
         height: 50px;
+        margin-left: 10px;
     }
 
     .nav-link {
@@ -55,7 +55,8 @@ header{
         .botonera {
          padding: 15px;
          border: 1px solid #ccc;
-        background-color:   #FFFEFA;    
+         background-color:   #FFFEFA;  
+         margin-bottom: 20px;  
             
             &:hover {
                 border: 1px solid $color-primario;} 

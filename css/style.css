@@ -33,11 +33,27 @@ body {
 #contacto .form-floating {
   margin-top: 40px;
 }
+#contacto .btn {
+  margin: 40px 0px;
+  background-color: #FFFEFA;
+  border: 0px;
+  color: #3A3A3A;
+}
+#contacto .icon-bar p {
+  color: #FFFEFA;
+  font-weight: "Montserrat";
+  margin-top: 40px;
+}
+#contacto .icon-bar i {
+  color: #FFFEFA;
+  margin: 20px;
+  font-size: 40px;
+}
 
 /************** HEADER ******************/
 header {
   width: 100%;
-  height: 750px;
+  height: auto;
   background-image: url(../imagenes/fondo.svg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -50,6 +66,7 @@ header .contenedor {
 }
 header .contenedor .logo {
   height: 50px;
+  margin-left: 10px;
 }
 header .contenedor .nav-link {
   color: #3A3A3A;
@@ -84,6 +101,7 @@ header .contenedor .titulo-container .botonera {
   padding: 15px;
   border: 1px solid #ccc;
   background-color: #FFFEFA;
+  margin-bottom: 20px;
 }
 header .contenedor .titulo-container .botonera:hover {
   border: 1px solid #CC0000;
