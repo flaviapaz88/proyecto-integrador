@@ -21,6 +21,7 @@ body {
   src: url(../audio/Antonio-Bold.ttf) format("woff");
 }
 /* Components */
+/************** CONTACTO ******************/
 #contacto {
   background-color: orangered;
 }
@@ -292,6 +293,7 @@ header .contenedor .titulo-container .botonera a:hover {
   letter-spacing: 2px;
 }
 
+/************** RESPONSIVE ******************/
 @media only screen and (max-width: 960px) {
   #quienes-somos .somos-shimai {
     flex-direction: column;
